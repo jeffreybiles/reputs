@@ -1,6 +1,6 @@
 require "reputs/version"
 
-module Reputs
+Kernel.class_eval do
   def reputs(thing)
     puts thing
     return thing
